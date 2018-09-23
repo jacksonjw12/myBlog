@@ -3,9 +3,11 @@ logo: /images/svdb.png
 keywords: "jackson wheeler, developer, blog, santa clara, santa clara university"
 menu:
   Home: /
+  Project: /project
   Project Entries: /articles
-  Main Website: https://jacksonjw.com
   About Me: /about
+  Main Website: https://jacksonjw.com
+
 
 # Content
 excerpt_link: Read more

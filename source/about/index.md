@@ -3,6 +3,8 @@ title: About
 date: 2018-09-23 14:43:36
 ---
 
+This blog is an eFolio created for my Community Based Engineering Design Class
+
 I am a third year Comp Sci Major studying at Santa Clara University
 
 Checkout out my personal website at [jacksonjw.com](https://jacksonjw.com)

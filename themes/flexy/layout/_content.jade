@@ -1,6 +1,6 @@
 //- index page
 if is_home()
-  h4.page-title Recent Articles
+  h4.page-title Recent Entries
   each post in site.posts.sort('date', 'desc').toArray()
     - var reading_length = Math.ceil(post.content.replace(/[^a-zA-Z\s]/g, '').split(/[\s]+/).length / 250)
     a.article(href= config.root + post.path)
@@ -18,6 +18,7 @@ if is_page() && page.title.toLowerCase() == 'project entries'
   article.full
     h1(itemprop='headline')= page.title
     != page.content
+    h5='Each weeks eFolio entry'
     - var lastyear = 0
     for post, index in site.posts.sort('date', 'desc').toArray()
       if lastyear != post.date.format('YYYY')
