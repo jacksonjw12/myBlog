@@ -1,11 +1,11 @@
 # config
 logo: /images/svdb.png
 keywords: "jackson wheeler, developer, blog, santa clara, santa clara university"
-pubkey: 13DB CAA1 2633 81A7
 menu:
   Home: /
-  Articles: /articles
-  About: /about
+  Project Entries: /articles
+  Main Website: https://jacksonjw.com
+  About Me: /about
 
 # Content
 excerpt_link: Read more
